@@ -1,12 +1,6 @@
-Hi!
-
-{!Account.Name} Service Agreement has been signed!
-
- Please review all documents and approve contract.
-
-Thank you!
-
-
-{!Account.OwnerFullName}
-
-{!Contract.Link}
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style=""><font face="Arial, sans-serif" size="4"><b>{!Sales_Inventory__c.CreatedDate}</b></font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><b style=""><font face="Arial, sans-serif" style="" size="4"><br></font></b></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><b style=""><font face="Arial, sans-serif" style="" size="4">{Salesperson: !Sales_Inventory__c.CreatedBy}</font></b></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><b><font face="Arial, sans-serif" size="4"><br></font></b></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><b><font face="Arial, sans-serif" size="4">Account/Salesperson Requesting Bags: {!Sales_Inventory__c.Account__c}</font></b></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><b><font face="Arial, sans-serif" size="4"><br></font></b></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><b style=""><font face="Arial, sans-serif" style="" size="4">Quantity: {!Sales_Inventory__c.Quantity__c}</font></b></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><b style=""><font face="Arial, sans-serif" style="" size="4"><br></font></b></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><b style="color: rgb(0, 0, 0); font-family: arial;"><font face="Arial, sans-serif" style="" size="4">Notes:&nbsp;</font></b><font face="Arial, sans-serif" size="4"><b>{!Sales_Inventory__c.Notes__c}</b></font></div>]]></td>
+</tr>
+</table>
