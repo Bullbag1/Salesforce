@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>
+            <!-- Total Number of Posted Speed Events -->
+        </label>
+        <name>Total_Number_of_Posted_Speed_Events__c</name>
+    </CustomFieldTranslation>

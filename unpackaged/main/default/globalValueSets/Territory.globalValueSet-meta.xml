@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>FL Panhandle</fullName>
+        <default>false</default>
+        <label>FL Panhandle</label>
+    </customValue>
+    <customValue>
+        <fullName>AL Panhandle</fullName>
+        <default>false</default>
+        <label>AL Panhandle</label>
+    </customValue>
+    <customValue>
+        <fullName>North East</fullName>
+        <default>false</default>
+        <label>North East</label>
+    </customValue>
+    <customValue>
+        <fullName>Florida</fullName>
+        <default>false</default>
+        <label>Florida</label>
+    </customValue>
+    <customValue>
+        <fullName>National</fullName>
+        <default>false</default>
+        <label>National</label>
+    </customValue>
+    <customValue>
+        <fullName>Jacksonville, Florida</fullName>
+        <default>false</default>
+        <label>Jacksonville, Florida</label>
+    </customValue>
+    <customValue>
+        <fullName>Houston, Texas</fullName>
+        <default>false</default>
+        <label>Houston, Texas</label>
+    </customValue>
+    <customValue>
+        <fullName>Lower Connecticut</fullName>
+        <default>false</default>
+        <label>Lower Connecticut</label>
+    </customValue>
+    <customValue>
+        <fullName>Connecticut</fullName>
+        <default>false</default>
+        <label>Connecticut</label>
+    </customValue>
+    <customValue>
+        <fullName>Texas</fullName>
+        <default>false</default>
+        <label>Texas</label>
+    </customValue>
+    <description>Value to be populated on Lead, Account, and Zip Code.</description>
+    <masterLabel>Territory</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

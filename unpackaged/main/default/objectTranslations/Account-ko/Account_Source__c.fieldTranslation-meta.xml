@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>
+            <!-- Account Source -->
+        </label>
+        <name>Account_Source__c</name>
+        <picklistValues>
+            <masterLabel>ALACRITY</masterLabel>
+            <translation>
+                <!-- ALACRITY -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIG RENTZ</masterLabel>
+            <translation>
+                <!-- BIG RENTZ -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOME DEPOT</masterLabel>
+            <translation>
+                <!-- HOME DEPOT -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOWES</masterLabel>
+            <translation>
+                <!-- LOWES -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NP</masterLabel>
+            <translation>
+                <!-- NP -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neighborly</masterLabel>
+            <translation>
+                <!-- Neighborly -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PACK AND LOAD</masterLabel>
+            <translation>
+                <!-- PACK AND LOAD -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RS</masterLabel>
+            <translation>
+                <!-- RS -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEDGWICK</masterLabel>
+            <translation>
+                <!-- SEDGWICK -->
+            </translation>
+        </picklistValues>
+    </CustomFieldTranslation>

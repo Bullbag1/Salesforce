@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Area_Serviced__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Set to false from E-Commerce when user logs in and Shipping Postal Code is not in Pricebooks</description>
+    <externalId>false</externalId>
+    <label>Is Area Serviced</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

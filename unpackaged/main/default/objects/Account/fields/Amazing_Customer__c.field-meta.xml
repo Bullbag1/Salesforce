@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amazing_Customer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This customer is amazing and requires the absolute best customer service :)</description>
+    <externalId>false</externalId>
+    <label>Amazing Customer</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

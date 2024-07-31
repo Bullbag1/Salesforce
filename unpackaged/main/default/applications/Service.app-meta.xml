@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#F14A4A</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Service</label>
+    <navType>Standard</navType>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Order</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>maps__Maps</tabs>
+    <tabs>Coupon__c</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>HouseAccount__c</tabs>
+    <tabs>Inventory__c</tabs>
+    <tabs>Sales_Inventory__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Service_UtilityBar</utilityBar>
+</CustomApplication>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mileage_Entry</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+OR(
+ISPICKVAL ( Type,&quot;Bag Demo&quot;),
+ISPICKVAL ( Type,&quot;Customer Visit&quot;),
+ISPICKVAL ( Type,&quot;Store Visit&quot;),
+ISPICKVAL ( Type,&quot;Onsite Cold Call&quot;),
+ISPICKVAL ( Type,&quot;Pro Day&quot;),
+ISPICKVAL ( Type,&quot;Meeting&quot;),
+ISPICKVAL ( Type,&quot;Bag Drop Off&quot;)),
+isblank( Starting_Mileage_del__c ),
+
+isblank( Ending_Mileage_del__c ))</errorConditionFormula>
+    <errorDisplayField>Starting_Mileage_del__c</errorDisplayField>
+    <errorMessage>Please Enter Starting and Ending Mileage</errorMessage>
+</ValidationRule>

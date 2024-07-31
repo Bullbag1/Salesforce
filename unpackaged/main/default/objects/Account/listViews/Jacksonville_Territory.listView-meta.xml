@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jacksonville_Territory</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.LAST_ACTIVITY</columns>
+    <columns>Most_Recent_Order__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Contractor_Rate__c</columns>
+    <columns>Total_Revenue__c</columns>
+    <filterScope>MyTerritory</filterScope>
+    <filters>
+        <field>Contractor_Rate__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_STATE</field>
+        <operation>equals</operation>
+        <value>fl</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_ZIP</field>
+        <operation>contains</operation>
+        <value>32753,32713,32725,32774,32763,32722,32720,32724,32721,32723,32105,32180,32190,32130,32764,32739,32728,32738,32706,32744,32128,32124,32121,32115</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_ZIP</field>
+        <operation>equals</operation>
+        <value>32120,32126,32116,32125,32114,32122,32129,32198,32118,32175,32173,32174,32117,32176,32141,32168,32170,32132,32169,32759,32127,32123,32119,32666,32185,32138,32656,32160,32148,32140,32147,32079,32068,32050,32234,32221</value>
+    </filters>
+    <label>Jacksonville Territory</label>
+</ListView>

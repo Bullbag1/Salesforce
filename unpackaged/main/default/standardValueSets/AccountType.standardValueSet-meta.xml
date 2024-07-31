@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Consumer</fullName>
+        <default>false</default>
+        <label>Consumer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contractor</fullName>
+        <default>false</default>
+        <label>Contractor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Restoration Company</fullName>
+        <default>false</default>
+        <label>Restoration Company</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Municipality</fullName>
+        <default>false</default>
+        <label>Municipality</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Landfill</fullName>
+        <default>false</default>
+        <label>Landfill</label>
+    </standardValue>
+    <standardValue>
+        <fullName>College/University</fullName>
+        <default>false</default>
+        <label>College/University</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Repair Facility</fullName>
+        <default>false</default>
+        <label>Repair Facility</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Property Manager</fullName>
+        <default>false</default>
+        <label>Property Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Multi Family Housing</fullName>
+        <default>false</default>
+        <label>Multi Family Housing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Homebuilder</fullName>
+        <default>false</default>
+        <label>Homebuilder</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manufacturer</fullName>
+        <default>false</default>
+        <label>Manufacturer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other Govt</fullName>
+        <default>false</default>
+        <label>Other Govt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Restoration/Catastrophic</fullName>
+        <default>false</default>
+        <label>Restoration/Catastrophic</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retail Store</fullName>
+        <default>false</default>
+        <label>Retail Store</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Transfer Station</fullName>
+        <default>false</default>
+        <label>Transfer Station</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Waste Company</fullName>
+        <default>false</default>
+        <label>Waste Company</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Catastrophic/Disaster</fullName>
+        <default>false</default>
+        <label>Catastrophic/Disaster</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Former Customer</fullName>
+        <default>false</default>
+        <label>Former Customer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>STORAGE FACILITY</fullName>
+        <default>false</default>
+        <label>STORAGE FACILITY</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OFFICE</fullName>
+        <default>false</default>
+        <label>OFFICE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AT HOME</fullName>
+        <default>false</default>
+        <label>AT HOME</label>
+    </standardValue>
+</StandardValueSet>

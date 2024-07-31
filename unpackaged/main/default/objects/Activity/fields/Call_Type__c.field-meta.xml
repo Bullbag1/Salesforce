@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Call Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+                <label>Phone Call</label>
+            </value>
+            <value>
+                <fullName>Inbound Email</fullName>
+                <default>false</default>
+                <label>Inbound Email</label>
+            </value>
+            <value>
+                <fullName>Cold Call</fullName>
+                <default>false</default>
+                <label>Onsite Cold Call</label>
+            </value>
+            <value>
+                <fullName>Customer Visit</fullName>
+                <default>false</default>
+                <label>Customer Visit</label>
+            </value>
+            <value>
+                <fullName>Bag Demo</fullName>
+                <default>false</default>
+                <label>Bag Demo</label>
+            </value>
+            <value>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+                <label>Meeting</label>
+            </value>
+            <value>
+                <fullName>Store Visit</fullName>
+                <default>false</default>
+                <label>Store Visit</label>
+            </value>
+            <value>
+                <fullName>Bag Drop Off</fullName>
+                <default>false</default>
+                <label>Bag Drop Off</label>
+            </value>
+            <value>
+                <fullName>Demo Day</fullName>
+                <default>false</default>
+                <label>Pro Day</label>
+            </value>
+            <value>
+                <fullName>Conference CAll</fullName>
+                <default>false</default>
+                <label>Conference Call</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>**** Customer Service Use Only ****</fullName>
+                <default>false</default>
+                <label>**** Customer Service Use Only ****</label>
+            </value>
+            <value>
+                <fullName>Phone Order</fullName>
+                <default>false</default>
+                <label>Phone Order</label>
+            </value>
+            <value>
+                <fullName>New Order</fullName>
+                <default>false</default>
+                <label>New Order</label>
+            </value>
+            <value>
+                <fullName>Service Eta</fullName>
+                <default>false</default>
+                <label>Service Eta</label>
+            </value>
+            <value>
+                <fullName>Service Complaint</fullName>
+                <default>false</default>
+                <label>Service Complaint</label>
+            </value>
+            <value>
+                <fullName>Refund Update</fullName>
+                <default>false</default>
+                <label>Refund Update</label>
+            </value>
+            <value>
+                <fullName>Price Inquiry</fullName>
+                <default>false</default>
+                <label>Price Inquiry</label>
+            </value>
+            <value>
+                <fullName>Service Update</fullName>
+                <default>false</default>
+                <label>Service Update</label>
+            </value>
+            <value>
+                <fullName>Retail Locater</fullName>
+                <default>false</default>
+                <label>Retail Locater</label>
+            </value>
+            <value>
+                <fullName>Retailer Follow up</fullName>
+                <default>false</default>
+                <label>Retailer Follow up</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

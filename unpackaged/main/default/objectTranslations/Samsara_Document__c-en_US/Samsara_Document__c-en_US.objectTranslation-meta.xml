@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Samsara Document</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Samsara Documents</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Fuel Receipt Layout</layout>
+        <sections>
+            <label>
+                <!-- Custom Links -->
+            </label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>
+                <!-- Samsara API Data -->
+            </label>
+            <section>Samsara API Data</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Samsara Document Layout</layout>
+        <sections>
+            <label>
+                <!-- Custom Links -->
+            </label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>
+                <!-- New Section -->
+            </label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label>
+            <!-- Fuel Receipt -->
+        </label>
+        <name>Fuel_Receipt</name>
+    </recordTypes>
+    <recordTypes>
+        <label>
+            <!-- Irretrievable Bag -->
+        </label>
+        <name>Irretrievable_Bag</name>
+    </recordTypes>
+    <recordTypes>
+        <label>
+            <!-- Pickup Photos -->
+        </label>
+        <name>Proof_of_Delivery</name>
+    </recordTypes>
+    <recordTypes>
+        <label>
+            <!-- Scale Ticket -->
+        </label>
+        <name>Scale_Ticket</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

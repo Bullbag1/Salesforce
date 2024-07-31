@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Cold Call in Person</fullName>
+        <default>false</default>
+        <label>Cold Call in Person</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Outbound Phone Call</fullName>
+        <default>false</default>
+        <label>Outbound Phone Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Outreach</fullName>
+        <default>false</default>
+        <label>Email Outreach</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inbound Telephone Call</fullName>
+        <default>false</default>
+        <label>Inbound Telephone Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Referral</fullName>
+        <default>false</default>
+        <label>Customer Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trade Show</fullName>
+        <default>false</default>
+        <label>Trade Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>retail</fullName>
+        <default>false</default>
+        <label>Lowes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>retailer</fullName>
+        <default>false</default>
+        <label>Home Depot</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Internal Marketing</fullName>
+        <default>false</default>
+        <label>Internal Marketing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Purchased List</fullName>
+        <default>false</default>
+        <label>Purchased List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website</fullName>
+        <default>false</default>
+        <label>Facebook/LinkedIn</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employee Referral</fullName>
+        <default>false</default>
+        <label>Employee Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SEM</fullName>
+        <default>false</default>
+        <label>SEM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+</StandardValueSet>

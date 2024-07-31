@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>support@smartroutes.io</contactEmail>
+    <label>SmartRoutes</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:3333/callback</callbackUrl>
+        <certificate>MIIEAzCCAuugAwIBAgIUNTv0F3MBHuzaLJrLstVCyR3sljgwDQYJKoZIhvcNAQELBQAwgZAxCzAJBgNVBAYTAklFMQ0wCwYDVQQIDARDb3JrMQ0wCwYDVQQHDARDb3JrMRQwEgYDVQQKDAtTbWFydFJvdXRlczEUMBIGA1UECwwLU21hcnRSb3V0ZXMxFDASBgNVBAMMC1NtYXJ0Um91dGVzMSEwHwYJKoZIhvcNAQkBFhJkZXZAc21hcnRyb3V0ZXMuaW8wHhcNMjQwNjEzMTYyMDA5WhcNMjYwNjEzMTYyMDA5WjCBkDELMAkGA1UEBhMCSUUxDTALBgNVBAgMBENvcmsxDTALBgNVBAcMBENvcmsxFDASBgNVBAoMC1NtYXJ0Um91dGVzMRQwEgYDVQQLDAtTbWFydFJvdXRlczEUMBIGA1UEAwwLU21hcnRSb3V0ZXMxITAfBgkqhkiG9w0BCQEWEmRldkBzbWFydHJvdXRlcy5pbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ2ZSB8oqC2KJt5oFlxJFiKDVeZCxARj+Am+yEk/nZQjKbCqnZssUInK9royo6Ya7PmZfm9UpqTiNbf2sJuW67yIS2fK1goQE5oGNIB9RHuxroNODDJkpzjtJ4kcGgHNAzsKk5qk8wsJqauH12UFS1GenmZtkuWnLECT7Sp/AwEWBA0U9HZJGw9AJ08j2Z8ZWFWIDguMx4hR4g25UbeODSEy5/ACCeJvt2NCFdFV0qr0m6um1B861fpg+91YxQJ9tdO3COeTtSXWNGI3D85W36gxymdq/Uloc2a9Sg+R9xYtiIg2IHW+nBkq7Gcxpc7JteizQabXakYjjro1Z75Nbg0CAwEAAaNTMFEwHQYDVR0OBBYEFH+eBO/6kvpZXkAzZDKLDHY67/uBMB8GA1UdIwQYMBaAFH+eBO/6kvpZXkAzZDKLDHY67/uBMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADYUm59adNkQeDP06klZWL1q2LhIU/0pxqesxQDJO0N/BNp1k9NNxcMUoMbwy0jTw8TiSpA4tMZhXAJwwlS/XVmegHUTFnlXVtamhZ8S1OdKRvuetNN4PiogS9hd/ot3O18klV67ZlrshCDHhMaaNg0s3jyuRoQF5pqlrc91F2kb8oxUJKKg/fQf84FwCCfp6xoJuoCIloYdHjxhsxodktfZXCZxdKxM+McHwNymrPQKt+8fRSWse4ysDKiih/wCVq9RY+rGGxT242ep1Pv14g8Rzg6UO0l1AMPbjxk75y904QqOXQfj//pJSFiOyrMty6nfEQ4U2pSTs4f1VnncsOo=</certificate>
+        <consumerKey>3MVG9KI2HHAq33RzeTg2cRw.x76M57M1CnRbQrvrLxvCb_NSGg0MRWYy0alpMLANegUvVHEr6iCuRVzpRJePn</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>true</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

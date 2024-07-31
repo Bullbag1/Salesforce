@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Coupon</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Coupons</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Coupon Layout</layout>
+        <sections>
+            <label>
+                <!-- Custom Links -->
+            </label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>
+            <!-- Availed coupon limit crossed -->
+        </errorMessage>
+        <name>Coupon_consumed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>
+            <!-- Coupon code should be unique -->
+        </errorMessage>
+        <name>Unique_Name</name>
+    </validationRules>
+</CustomObjectTranslation>

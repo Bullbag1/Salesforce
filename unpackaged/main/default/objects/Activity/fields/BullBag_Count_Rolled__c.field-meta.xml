@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BullBag_Count_Rolled__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>The quantity of rolled BullBags involved in a bag drop.</description>
+    <externalId>false</externalId>
+    <label>BullBag Count (Rolled)</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <securityClassification>Public</securityClassification>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

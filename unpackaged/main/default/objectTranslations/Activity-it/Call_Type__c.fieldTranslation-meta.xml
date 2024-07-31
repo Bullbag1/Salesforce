@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>
+            <!-- Call Type -->
+        </label>
+        <name>Call_Type__c</name>
+        <picklistValues>
+            <masterLabel>**** Customer Service Use Only ****</masterLabel>
+            <translation>
+                <!-- **** Customer Service Use Only **** -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bag Demo</masterLabel>
+            <translation>
+                <!-- Bag Demo -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bag Drop Off</masterLabel>
+            <translation>
+                <!-- Bag Drop Off -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conference Call</masterLabel>
+            <translation>
+                <!-- Conference Call -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Visit</masterLabel>
+            <translation>
+                <!-- Customer Visit -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation>
+                <!-- Email -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound Email</masterLabel>
+            <translation>
+                <!-- Inbound Email -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting</masterLabel>
+            <translation>
+                <!-- Meeting -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Order</masterLabel>
+            <translation>
+                <!-- New Order -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onsite Cold Call</masterLabel>
+            <translation>
+                <!-- Onsite Cold Call -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>
+                <!-- Other -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Call</masterLabel>
+            <translation>
+                <!-- Phone Call -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Order</masterLabel>
+            <translation>
+                <!-- Phone Order -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price Inquiry</masterLabel>
+            <translation>
+                <!-- Price Inquiry -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pro Day</masterLabel>
+            <translation>
+                <!-- Pro Day -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refund Update</masterLabel>
+            <translation>
+                <!-- Refund Update -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Locater</masterLabel>
+            <translation>
+                <!-- Retail Locater -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retailer Follow up</masterLabel>
+            <translation>
+                <!-- Retailer Follow up -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Complaint</masterLabel>
+            <translation>
+                <!-- Service Complaint -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Eta</masterLabel>
+            <translation>
+                <!-- Service Eta -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Update</masterLabel>
+            <translation>
+                <!-- Service Update -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Store Visit</masterLabel>
+            <translation>
+                <!-- Store Visit -->
+            </translation>
+        </picklistValues>
+    </CustomFieldTranslation>

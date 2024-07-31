@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <description>Create forms, invoices, orders, proposals, surveys, employment applications and contracts with FormFactory from DreamFactory Software, makers of DreamTeam.</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>FormFactory</label>
+    <logo>BLND_Logos_Identity/BLND_DreamFactory_Logo.gif</logo>
+    <tabs>BLND_FormFactory</tabs>
+    <tabs>BLND_DFFF_Employment_Application__c</tabs>
+    <tabs>BLND_DFFF_Sample_Survey__c</tabs>
+    <tabs>Fuel_Log__c</tabs>
+    <tabs>Dump_Ticket__c</tabs>
+    <tabs>Vehicle__c</tabs>
+    <tabs>VehicleDailySummary__c</tabs>
+    <tabs>VehicleStop__c</tabs>
+    <tabs>sma__MASavedQry__c</tabs>
+    <tabs>Driver_Log__c</tabs>
+    <tabs>HouseAccount__c</tabs>
+    <tabs>Inventory__c</tabs>
+    <tabs>Sales_Inventory__c</tabs>
+</CustomApplication>

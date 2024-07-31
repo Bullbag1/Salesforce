@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Where_did_you_learn_about_BullBag__c</fullName>
+    <externalId>false</externalId>
+    <label>Where did you learn about BullBag?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>From a friend</fullName>
+                <default>false</default>
+                <label>From a friend</label>
+            </value>
+            <value>
+                <fullName>From a contractor</fullName>
+                <default>false</default>
+                <label>From a contractor</label>
+            </value>
+            <value>
+                <fullName>Saw it at a retailer</fullName>
+                <default>false</default>
+                <label>Saw it at a retailer</label>
+            </value>
+            <value>
+                <fullName>Saw it at a show</fullName>
+                <default>false</default>
+                <label>Saw it at a show</label>
+            </value>
+            <value>
+                <fullName>Saw a BullBag in use</fullName>
+                <default>false</default>
+                <label>Saw a BullBag in use</label>
+            </value>
+            <value>
+                <fullName>Web search</fullName>
+                <default>false</default>
+                <label>Web search</label>
+            </value>
+            <value>
+                <fullName>Online advertisement</fullName>
+                <default>false</default>
+                <label>Online advertisement</label>
+            </value>
+            <value>
+                <fullName>Television advertisement</fullName>
+                <default>false</default>
+                <label>Television advertisement</label>
+            </value>
+            <value>
+                <fullName>Radio advertisement</fullName>
+                <default>false</default>
+                <label>Radio advertisement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

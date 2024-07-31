@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label>
+                <!-- Pardot -->
+            </label>
+            <section>Pardot</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Picture Upload Layout</layout>
+        <sections>
+            <label>
+                <!-- Custom Links -->
+            </label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label>
+            <!-- GoogleMaps -->
+        </label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- GoogleSearch -->
+        </label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- MA_MapIt_a0s610000022dD1AAI -->
+        </label>
+        <name>MA_MapIt_a0s610000022dD1AAI</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- Send_Google_Review -->
+        </label>
+        <name>Send_Google_Review</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- Upload_Picture -->
+        </label>
+        <name>Upload_Picture</name>
+    </webLinks>
+</CustomObjectTranslation>

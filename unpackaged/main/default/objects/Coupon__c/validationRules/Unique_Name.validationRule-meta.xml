@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unique_Name</fullName>
+    <active>true</active>
+    <description>Coupon code should be unique</description>
+    <errorConditionFormula>AND(NOT(ISBLANK(VLOOKUP($ObjectType.Coupon__c.Fields.Name,$ObjectType.Coupon__c.Fields.Name,Name))),  OR(ISNEW(), ISCHANGED(Name)) )</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Coupon code should be unique</errorMessage>
+</ValidationRule>

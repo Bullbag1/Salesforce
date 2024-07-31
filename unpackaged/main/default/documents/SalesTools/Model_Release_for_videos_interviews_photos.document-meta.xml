@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is the model release to use for any time you may take a photo of someone other than an employee. For example: pro days at retailers, events, trade shows, disposals, etc.
+Please email to Chris Ciaccio and marketing@thebullbag.com upon completion</description>
+    <internalUseOnly>false</internalUseOnly>
+    <keywords>model release</keywords>
+    <name>Model Release for videos, interviews, photos</name>
+    <public>false</public>
+</Document>

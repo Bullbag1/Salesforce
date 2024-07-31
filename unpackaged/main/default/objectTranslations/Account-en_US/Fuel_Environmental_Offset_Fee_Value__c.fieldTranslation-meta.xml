@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>
+            <!-- Fuel Environmental Offset Fee ($ Value) -->
+        </label>
+        <name>Fuel_Environmental_Offset_Fee_Value__c</name>
+    </CustomFieldTranslation>

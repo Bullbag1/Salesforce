@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>
+            <!-- Where did you learn about BullBag? -->
+        </label>
+        <name>Where_did_you_learn_about_BullBag__c</name>
+        <picklistValues>
+            <masterLabel>From a contractor</masterLabel>
+            <translation>
+                <!-- From a contractor -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>From a friend</masterLabel>
+            <translation>
+                <!-- From a friend -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online advertisement</masterLabel>
+            <translation>
+                <!-- Online advertisement -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radio advertisement</masterLabel>
+            <translation>
+                <!-- Radio advertisement -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saw a BullBag in use</masterLabel>
+            <translation>
+                <!-- Saw a BullBag in use -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saw it at a retailer</masterLabel>
+            <translation>
+                <!-- Saw it at a retailer -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saw it at a show</masterLabel>
+            <translation>
+                <!-- Saw it at a show -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Television advertisement</masterLabel>
+            <translation>
+                <!-- Television advertisement -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web search</masterLabel>
+            <translation>
+                <!-- Web search -->
+            </translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Disposal_Orders</fullName>
+    <columns>ORDERS.ORDER_NUMBER</columns>
+    <columns>SALES.ACCOUNT.NAME</columns>
+    <columns>ORDERS.TOTAL_AMOUNT</columns>
+    <columns>ORDERS.TYPE</columns>
+    <columns>ORDERS.EFFECTIVE_DATE</columns>
+    <columns>ORDERS.STATUS</columns>
+    <columns>CONTRACT.CONTRACT_NUMBER</columns>
+    <columns>Disposal_State__c</columns>
+    <columns>ORDER.SHIPPING_STREET</columns>
+    <columns>ORDER.SHIPPING_CITY</columns>
+    <columns>ORDER.SHIPPING_STATE</columns>
+    <columns>ORDER.SHIPPING_ZIP</columns>
+    <columns>Driver_Pickup_Comments__c</columns>
+    <columns>Vehicle_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ORDERS.TYPE</field>
+        <operation>equals</operation>
+        <value>Bag Disposal</value>
+    </filters>
+    <filters>
+        <field>ORDERS.CREATED_DATE</field>
+        <operation>lessThan</operation>
+        <value>1/1/2024 12:00 AM</value>
+    </filters>
+    <label>old Disposal Orders</label>
+</ListView>

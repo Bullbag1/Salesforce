@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Approved</fullName>
+        <description>Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/ApprovedContract</template>
+    </alerts>
+    <alerts>
+        <fullName>Approved_Contract</fullName>
+        <ccEmails>paul@thebullbag.com</ccEmails>
+        <description>Approved Contract</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        
+        
+        
+        
+        
+        
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/New_Service_Agreement</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_Approval_Intro_Email</fullName>
+        <description>New Commercial Customer Intro Email From Paul</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <recipients>
+            <field>CustomerSignedId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>paul@thebullbag.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/New_Customef</template>
+    </alerts>
+    <alerts>
+        <fullName>OPSINTRO</fullName>
+        <description>New Customer Operation Intro Email</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <recipients>
+            <field>CustomerSignedId</field>
+            <type>contactLookup</type>
+        </recipients>
+        
+        
+        <senderAddress>service@thebullbag.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/OpsIntro</template>
+    </alerts>
+    <alerts>
+        <fullName>Rejected_Contract</fullName>
+        <description>Rejected Contract</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Submission</fullName>
+        <description>Submission</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        
+        
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Please_approve</template>
+    </alerts>
+    <alerts>
+        <fullName>rejected</fullName>
+        <description>rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/rejected</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Approve_Status</fullName>
+        <field>Status</field>
+        <literalValue>Active</literalValue>
+        <name>Approve Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approved</fullName>
+        <field>Status</field>
+        <literalValue>Active</literalValue>
+        <name>Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>active</fullName>
+        <field>Status</field>
+        <literalValue>Active</literalValue>
+        <name>active</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>in_process</fullName>
+        <field>Status</field>
+        <literalValue>In Approval Process</literalValue>
+        <name>in process</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>recalled</fullName>
+        <field>Status</field>
+        <literalValue>Draft</literalValue>
+        <name>recalled</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>rejected</fullName>
+        <field>Status</field>
+        <literalValue>Draft</literalValue>
+        <name>Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

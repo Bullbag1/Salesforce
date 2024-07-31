@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Lead Layout</layout>
+        <sections>
+            <label>
+                <!-- Pardot -->
+            </label>
+            <section>Pardot</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>sales person</layout>
+        <sections>
+            <label>
+                <!-- Custom Links -->
+            </label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>
+                <!-- Fields -->
+            </label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label>
+            <!-- Business -->
+        </label>
+        <name>Business</name>
+    </recordTypes>
+    <recordTypes>
+        <label>
+            <!-- Consumer -->
+        </label>
+        <name>Consumer</name>
+    </recordTypes>
+    <recordTypes>
+        <label>
+            <!-- Retail -->
+        </label>
+        <name>Retail</name>
+    </recordTypes>
+    <webLinks>
+        <label>
+            <!-- GoogleMaps -->
+        </label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- GoogleNews -->
+        </label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- GoogleSearch -->
+        </label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- MA_MapIt_a0s610000022dD2AAI -->
+        </label>
+        <name>MA_MapIt_a0s610000022dD2AAI</name>
+    </webLinks>
+</CustomObjectTranslation>

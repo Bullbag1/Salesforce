@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <webLinks>
+        <label>
+            <!-- BLND_FormFactory_Invoice -->
+        </label>
+        <name>BLND_FormFactory_Invoice</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- BLND_FormFactory_Packing_Slip -->
+        </label>
+        <name>BLND_FormFactory_Packing_Slip</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- BLND_FormFactory_Quote -->
+        </label>
+        <name>BLND_FormFactory_Quote</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- Delivery_Order -->
+        </label>
+        <name>Delivery_Order</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- Generate_Contract -->
+        </label>
+        <name>Generate_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- Generate_Invoice -->
+        </label>
+        <name>Generate_Invoice</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- Generate_Order -->
+        </label>
+        <name>Generate_Order</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- Generate_Order_Contract -->
+        </label>
+        <name>Generate_Order_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- Generate_Quote -->
+        </label>
+        <name>Generate_Quote</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- MA_MapIt_a0s610000022dD3AAI -->
+        </label>
+        <name>MA_MapIt_a0s610000022dD3AAI</name>
+    </webLinks>
+</CustomObjectTranslation>

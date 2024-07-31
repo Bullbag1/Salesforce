@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>
+            <!-- Type -->
+        </label>
+        <name>BLND_Type__c</name>
+        <picklistValues>
+            <masterLabel>Body</masterLabel>
+            <translation>
+                <!-- Body -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conclusion</masterLabel>
+            <translation>
+                <!-- Conclusion -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Introduction</masterLabel>
+            <translation>
+                <!-- Introduction -->
+            </translation>
+        </picklistValues>
+    </CustomFieldTranslation>

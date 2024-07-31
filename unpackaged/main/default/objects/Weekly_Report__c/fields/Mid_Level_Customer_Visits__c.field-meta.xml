@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mid_Level_Customer_Visits__c</fullName>
+    <description>The goal here is to identify customers already signed up with medium to low volumes and work accounts to higher volumes. This is the most cost effective and time valued target for each representative. This segment needs to be pushed and we need to be on their mind at all times.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Visit=Next Date Visit Planned
+Goal=What you are looking to accomplish at visit
+Update=Put date visited and BRIEF update of visit
+The goal here is to identify customers already signed up with medium to low volumes and work accounts to higher volumes.</inlineHelpText>
+    <label>Mid Level Customer VisitDate/Goal/Update</label>
+    <length>131072</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>15</visibleLines>
+</CustomField>

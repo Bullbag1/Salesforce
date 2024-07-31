@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Quantity_Dis_Amount_update</fullName>
+        <field>Quantity_Discount_Amount__c</field>
+        <formula>(UnitPrice * Quantity) *  Discount__c</formula>
+        <name>Quantity Dis Amount update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Sales_Tax_amount</fullName>
+        <field>Sales_Tax_Amount__c</field>
+        <formula>((UnitPrice * Quantity )- Quantity_Discount_Amount__c ) * Sales_Tax__c</formula>
+        <name>Update Sales Tax amount</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Quantity Discount update</fullName>
+        <actions>
+            <name>Quantity_Dis_Amount_update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>OrderItem.Quantity</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Sales Tax amount</fullName>
+        <actions>
+            <name>Update_Sales_Tax_amount</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>OrderItem.Quantity</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

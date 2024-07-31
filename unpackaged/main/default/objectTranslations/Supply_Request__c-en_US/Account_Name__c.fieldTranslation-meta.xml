@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>
+            <!-- Is this for a specific Account? -->
+        </help>
+        <label>
+            <!-- Account Name -->
+        </label>
+        <name>Account_Name__c</name>
+        <relationshipLabel>
+            <!-- Supply Requests -->
+        </relationshipLabel>
+    </CustomFieldTranslation>

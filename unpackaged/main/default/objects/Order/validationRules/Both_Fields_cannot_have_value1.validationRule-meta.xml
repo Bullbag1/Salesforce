@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Both_Fields_cannot_have_value1</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+NOT(ISBLANK (Agent_USD_Discount__c )), 
+NOT(ISBLANK (Agent_Perc_Discount__c )) 
+)</errorConditionFormula>
+    <errorMessage>Two fields cannot have value</errorMessage>
+</ValidationRule>

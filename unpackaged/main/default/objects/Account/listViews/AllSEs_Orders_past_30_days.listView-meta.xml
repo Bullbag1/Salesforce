@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllSEs_Orders_past_30_days</fullName>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>Account_Type__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>Most_Recent_Order__c</columns>
+    <columns>Total_Revenue__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>mmoor</value>
+    </filters>
+    <filters>
+        <field>Most_Recent_Order__c</field>
+        <operation>lessThan</operation>
+        <value>LAST_N_WEEKS:4</value>
+    </filters>
+    <label>!ALL SE&#39;s - 4 Weeks Old - 0 orders</label>
+</ListView>

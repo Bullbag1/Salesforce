@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>
+            <!-- Type -->
+        </label>
+        <name>BLND_Type__c</name>
+        <picklistValues>
+            <masterLabel>Equipment purchase</masterLabel>
+            <translation>
+                <!-- Equipment purchase -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lodging</masterLabel>
+            <translation>
+                <!-- Lodging -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meals</masterLabel>
+            <translation>
+                <!-- Meals -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Expense Type</masterLabel>
+            <translation>
+                <!-- No Expense Type -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation</masterLabel>
+            <translation>
+                <!-- Transportation -->
+            </translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prospecting_Other_Accounts__c</fullName>
+    <description>When out prospecting and in the area on the above accounts, prospect:
+ABC Supply - sign up stores and once signed you should be scheduling demo days to display the bag. 
+Home Depot (Houston)
+Contractors - try to target high volume contractors who can provide volume. 
+Small Builders - small builders are a niche markets and high value. Small builders like the ease of BB as well as easy placement. 
+Roofers - Target roofers for the second half of the install, its where we add value. 
+Kitchen &amp; Bath - 
+Plumbers - target plumbers that also do restorations like root router.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Retail Stores
+Contractors 
+Small Builders
+Roofers
+Kitchen &amp; Bath
+Plumbers</inlineHelpText>
+    <label>Other Accounts/Goal/Update</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>15</visibleLines>
+</CustomField>

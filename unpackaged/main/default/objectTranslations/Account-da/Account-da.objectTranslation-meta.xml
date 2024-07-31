@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label>
+                <!-- Order Information -->
+            </label>
+            <section>Order Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label>
+            <!-- Child Account -->
+        </label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label>
+            <!-- Log a Call -->
+        </label>
+        <name>LogACustomerCall</name>
+    </quickActions>
+    <quickActions>
+        <label>
+            <!-- Log a Call -->
+        </label>
+        <name>LogASalesCall</name>
+    </quickActions>
+    <recordTypes>
+        <description>
+            <!-- Business -->
+        </description>
+        <label>
+            <!-- Business -->
+        </label>
+        <name>Business</name>
+    </recordTypes>
+    <recordTypes>
+        <description>
+            <!-- Individual -->
+        </description>
+        <label>
+            <!-- Consumer -->
+        </label>
+        <name>Consumer</name>
+    </recordTypes>
+    <recordTypes>
+        <label>
+            <!-- Retail Store -->
+        </label>
+        <name>Retail_Store</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>
+            <!-- Only Administrator or Management can change this field. -->
+        </errorMessage>
+        <name>Only_Admin_can_change_this_field</name>
+    </validationRules>
+    <webLinks>
+        <label>
+            <!-- GoogleMaps -->
+        </label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- GoogleNews -->
+        </label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- GoogleSearch -->
+        </label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- MA_MapIt_a0s610000022dD0AAI -->
+        </label>
+        <name>MA_MapIt_a0s610000022dD0AAI</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- Send_Review -->
+        </label>
+        <name>Send_Review</name>
+    </webLinks>
+    <webLinks>
+        <label>
+            <!-- Send_Reviewgoogle -->
+        </label>
+        <name>Send_Reviewgoogle</name>
+    </webLinks>
+    <workflowTasks>
+        <name>Follow_up_14_days_since_last_order</name>
+        <subject>
+            <!-- Follow-up: 14 days since last order -->
+        </subject>
+    </workflowTasks>
+</CustomObjectTranslation>

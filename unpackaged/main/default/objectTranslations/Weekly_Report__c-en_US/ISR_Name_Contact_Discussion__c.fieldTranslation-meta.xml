@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>
+            <!-- Type the name of your Independent Sales Representative, Each last contact date and what was discussed. Also Let us know future plans with each ISR.
+In this sections also update on recruiting efforts and what your doing to grow your team. -->
+        </help>
+        <label>
+            <!-- ISR-Name/Contact Date/Discussion -->
+        </label>
+        <name>ISR_Name_Contact_Discussion__c</name>
+    </CustomFieldTranslation>

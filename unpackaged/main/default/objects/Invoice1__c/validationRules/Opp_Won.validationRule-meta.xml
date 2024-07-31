@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opp_Won</fullName>
+    <active>true</active>
+    <errorConditionFormula>(ISPICKVAL(Opportunity__r.StageName,&quot;Prospecting&quot;)) || 
+(ISPICKVAL(Opportunity__r.StageName,&quot;Qualification&quot;)) || 
+(ISPICKVAL(Opportunity__r.StageName,&quot;Needs Analysis&quot;)) || 
+(ISPICKVAL(Opportunity__r.StageName,&quot;Value Proposition&quot;)) || 
+(ISPICKVAL(Opportunity__r.StageName,&quot;Id. Decision Makers&quot;)) || 
+(ISPICKVAL(Opportunity__r.StageName,&quot;Perception Analysis&quot;)) || 
+(ISPICKVAL(Opportunity__r.StageName,&quot;Proposal/Price Quote&quot;)) || 
+(ISPICKVAL(Opportunity__r.StageName,&quot;Negotiation/Review&quot;)) || 
+(ISPICKVAL(Opportunity__r.StageName,&quot;Closed Lost&quot;))</errorConditionFormula>
+    <errorMessage>To create an invoice the opportunity has to be in stage: &quot;Closed Won&quot;</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>
+            <!-- How many pickups should you have by the end of this month based on your start date? -->
+        </help>
+        <label>
+            <!-- Monthly Pickup Goal -->
+        </label>
+        <name>Monthly_Pickup_Goal__c</name>
+    </CustomFieldTranslation>

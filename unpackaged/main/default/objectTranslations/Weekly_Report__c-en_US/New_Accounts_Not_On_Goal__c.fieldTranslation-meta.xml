@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>
+            <!-- List all new accounts that were closed this week but not listed on new account goal sheet. -->
+        </help>
+        <label>
+            <!-- New Accounts Not On Goal -->
+        </label>
+        <name>New_Accounts_Not_On_Goal__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Assembled Bags - w/ Poles in Polybag</fullName>
+        <default>false</default>
+        <label>Assembled Bags - w/ Poles in Polybag</label>
+    </customValue>
+    <customValue>
+        <fullName>New Bags</fullName>
+        <default>false</default>
+        <label>New Bags</label>
+    </customValue>
+    <customValue>
+        <fullName>PVC Poles</fullName>
+        <default>false</default>
+        <label>PVC Poles</label>
+    </customValue>
+    <customValue>
+        <fullName>Black Fiberglass Poles</fullName>
+        <default>false</default>
+        <label>Black Fiberglass Poles</label>
+    </customValue>
+    <customValue>
+        <fullName>Polybags</fullName>
+        <default>false</default>
+        <label>Polybags</label>
+    </customValue>
+    <customValue>
+        <fullName>Rolled Bags</fullName>
+        <default>false</default>
+        <label>Rolled Bags</label>
+    </customValue>
+    <customValue>
+        <fullName>Sleeves</fullName>
+        <default>false</default>
+        <label>Sleeves</label>
+    </customValue>
+    <customValue>
+        <fullName>HD Headers</fullName>
+        <default>false</default>
+        <label>HD Headers</label>
+    </customValue>
+    <customValue>
+        <fullName>Lowes Headers</fullName>
+        <default>false</default>
+        <label>Lowes Headers</label>
+    </customValue>
+    <customValue>
+        <fullName>Displays</fullName>
+        <default>false</default>
+        <label>Displays</label>
+    </customValue>
+    <customValue>
+        <fullName>Pallets</fullName>
+        <default>false</default>
+        <label>Pallets</label>
+    </customValue>
+    <masterLabel>Inventory Item</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

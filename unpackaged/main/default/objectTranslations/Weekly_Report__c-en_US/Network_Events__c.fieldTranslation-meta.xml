@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>
+            <!-- Enter network events such as BNI you plan on attending in the near future. -->
+        </help>
+        <label>
+            <!-- Network Events -->
+        </label>
+        <name>Network_Events__c</name>
+    </CustomFieldTranslation>

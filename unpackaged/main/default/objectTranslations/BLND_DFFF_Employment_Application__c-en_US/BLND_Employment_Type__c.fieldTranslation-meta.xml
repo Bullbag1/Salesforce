@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>
+            <!-- Employment Type -->
+        </label>
+        <name>BLND_Employment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Full time (40 hours Paid)</masterLabel>
+            <translation>
+                <!-- Full time (40 hours Paid) -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intern (unpaid)</masterLabel>
+            <translation>
+                <!-- Intern (unpaid) -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part-time (&lt;40 hours Paid)</masterLabel>
+            <translation>
+                <!-- Part-time (&lt;40 hours Paid) -->
+            </translation>
+        </picklistValues>
+    </CustomFieldTranslation>

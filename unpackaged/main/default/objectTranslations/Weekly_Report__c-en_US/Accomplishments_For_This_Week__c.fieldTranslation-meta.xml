@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>
+            <!-- Monday - What goals do you have targeted in addition to accept signing
+Friday - update the outcome for those goals. -->
+        </help>
+        <label>
+            <!-- Weekly Goals / Update -->
+        </label>
+        <name>Accomplishments_For_This_Week__c</name>
+    </CustomFieldTranslation>

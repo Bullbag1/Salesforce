@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pickup_Records</fullName>
+    <columns>NAME</columns>
+    <columns>Samsara_Created_Date__c</columns>
+    <columns>Job_Status__c</columns>
+    <columns>Order__c</columns>
+    <columns>Vehicle__c</columns>
+    <columns>Notes__c</columns>
+    <columns>Stop__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Bags_given_new__c</columns>
+    <columns>Bags_Given_Rolled__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Samsara_Document__c.Proof_of_Delivery</value>
+    </filters>
+    <label>Pickup Photos</label>
+</ListView>

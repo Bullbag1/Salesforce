@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Phone Call</fullName>
+        <default>false</default>
+        <label>Phone Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Inbound Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bag demo</fullName>
+        <default>false</default>
+        <label>Bag Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Visit</fullName>
+        <default>false</default>
+        <label>Customer Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Onsite Meeting</fullName>
+        <default>false</default>
+        <label>Onsite Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cold Call</fullName>
+        <default>false</default>
+        <label>Onsite Cold Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bag Drop</fullName>
+        <default>false</default>
+        <label>Bag Drop</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Store Visit</fullName>
+        <default>false</default>
+        <label>Retail Store Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>**** Customer Service Only ****</fullName>
+        <default>false</default>
+        <label>**** Customer Service Only ****</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Phone Order</fullName>
+        <default>false</default>
+        <label>Phone Order</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Service ETA</fullName>
+        <default>false</default>
+        <label>Service ETA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Service Complaint</fullName>
+        <default>false</default>
+        <label>Service Complaint</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pricing Inquiry</fullName>
+        <default>false</default>
+        <label>Pricing Inquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Service Update</fullName>
+        <default>false</default>
+        <label>Service Update</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retail Locator</fullName>
+        <default>false</default>
+        <label>Retail Locator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retailer Follow Up</fullName>
+        <default>false</default>
+        <label>Retailer Follow Up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reply</fullName>
+        <default>false</default>
+        <label>Reply</label>
+    </standardValue>
+</StandardValueSet>

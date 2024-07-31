@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Pricing Questions</fullName>
+        <default>false</default>
+        <label>Pricing Questions</label>
+    </customValue>
+    <customValue>
+        <fullName>Usage Questions</fullName>
+        <default>false</default>
+        <label>Usage Questions</label>
+    </customValue>
+    <customValue>
+        <fullName>How To Questions</fullName>
+        <default>false</default>
+        <label>How To Questions</label>
+    </customValue>
+    <customValue>
+        <fullName>Positioning Questions</fullName>
+        <default>false</default>
+        <label>Positioning Questions</label>
+    </customValue>
+    <customValue>
+        <fullName>Disposal Questions</fullName>
+        <default>false</default>
+        <label>Disposal Questions</label>
+    </customValue>
+    <masterLabel>Customer Call Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

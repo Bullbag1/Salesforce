@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>
+            <!-- Date of this Account&apos;s first Order -->
+        </help>
+        <label>
+            <!-- First Order Date -->
+        </label>
+        <name>First_Order_Date__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Operations_quotes</fullName>
+    <fields>AccountId</fields>
+    <fields>CreatedById</fields>
+    <fields>Vehicle__c</fields>
+    <fields>Status</fields>
+    <label>Operations quotes</label>
+</CompactLayout>

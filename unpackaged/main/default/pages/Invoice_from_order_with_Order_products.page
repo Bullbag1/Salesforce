@@ -1,0 +1,115 @@
+<apex:page >
+<style>
+#EmailTemplate table {
+    border-collapse: collapse;
+    
+}
+
+#EmailTemplate table, #EmailTemplate th, #EmailTemplate td {
+    border: 1px solid #000080;
+    color: #000080;
+}
+</style>
+<div Id = "EmailTemplate" style = "margin: 5%; color: #000080">
+    <div>
+        <div style="vertical-align: middle;">
+            <div Id="bullbagImage" style ="display: inline-block; height: 60px; width: 60px; margin-right: 20px;">
+                <img src="https://c.na34.content.force.com/servlet/servlet.ImageServer?id=01561000002IVoA&oid=00D61000000f2a8&lastMod=1519031741000"/>
+            </div>
+            <div Id="bullbagAddress" style ="display: inline-block;">
+                BullBag Corporation
+                <br></br>
+                2051 Green Road
+                <br></br>
+                Suite C
+                <br></br>
+                Pompano Beach, FL 33064
+                <br></br>
+            </div>
+        </div>
+
+        <div Id="invoiceTable" style="float:right; position: relative; top: -60px;">
+            <div style = "font-size: 24px; font-weight: 600; margin-bottom: 10px;">
+                Invoice
+            </div>
+            <table style = "border: none;">
+                <tr> 
+                    <th style = "border: none; width:70px;">Date</th>
+                    <th style = "border: none; width:70px;">Invoice #</th>
+                </tr>
+                <tr>
+                    <td style = "border: none;">9/18/2017</td>
+                    <td style = "border: none;">1752</td>
+                </tr> 
+            </table>
+        </div>
+    </div>
+    <div style = "margin-top: 50px;">
+        <table style = "border: none;">
+            <tr> 
+                <th style = "border: none;">Bill To</th>
+            </tr>
+            <tr>
+                <td style = "border: none;">The Bridge
+                    <br></br>
+                    Dennis Bake
+                    <br></br>
+                    3201 Rouse Road
+                    <br></br>
+                    Orlando, FL 32817
+                </td>
+            </tr> 
+        </table>
+    </div>       
+    <div style="float: right;">
+        <table style="width: 400px; border-bottom: none;">
+            <tr> 
+                <th>P.O. No.</th>
+                <th>Terms</th>
+                <th>Project</th>
+            </tr>
+            <tr style = "height: 30px;">
+                <td style = "border-bottom: none;"></td>
+                <td style = "border-bottom: none;"></td>
+                <td style = "border-bottom: none;"></td>
+            </tr> 
+        </table>
+    </div>
+    <div>
+        <table width="100%" style="border-bottom: none;">
+            <tr style= "height: 30px; background-color: lightgrey;"> 
+                <th>Quantity</th>
+                <th>Description</th>
+                <th>Rate</th>
+                <th>Amount</th>
+            </tr>
+            <tr style= "height: 500px;">
+                <td style = "border-bottom: none;">1</td>
+                <td style = "border-bottom: none;">6YD Disposal 3201 Rouse RD Orlando FL</td>
+                <td style = "border-bottom: none;">185.00</td>
+                <td style = "border-bottom: none;">185.00</td>
+            </tr> 
+        </table>
+        <table width="100%">
+            <tr>
+                <td></td>
+                <td width="30%"><span style = "font-size: 24px; font-weight: 600;" >Total</span> 185.00</td>
+            </tr> 
+        </table>
+    </div>
+    <div>
+    <table style = "margin-top: 30px; width: 100%; border: 2px solid black; ">
+        <tr style = "height:30px;">
+            <th style = "border: 2px solid black; color: black;">Phone #</th>
+            <th style = "border: 2px solid black; color: black;">E-mail</th>
+            <th style = "border: 2px solid black; color: black;">Web Site</th>
+        </tr> 
+        <tr style = "height:30px;">
+            <td style = "border: 2px solid black; color: black;">860-452-4303</td>
+            <td style = "border: 2px solid black; color: black;">mitchr@thebullbag.com</td>
+            <td style = "border: 2px solid black; color: black;">www.thebullbag.com</td>
+        </tr> 
+    </table>
+    </div>
+</div>    
+</apex:page>

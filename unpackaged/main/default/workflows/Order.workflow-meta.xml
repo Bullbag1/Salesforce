@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Invoice_sent_when_order_is_activated</fullName>
+        <ccEmails>684fe08e.thebullbag.com@amer.teams.ms</ccEmails>
+        <description>Invoice sent when order is activated</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>unfiled$public/Invoice_from_order_with_Order_products</template>
+    </alerts>
+    <alerts>
+        <fullName>Order_Confirmation_Disposal</fullName>
+        <ccEmails>684fe08e.thebullbag.com@amer.teams.ms</ccEmails>
+        <description>Order Confirmation (Disposal)</description>
+        <protected>false</protected>
+        <senderAddress>service@thebullbag.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Orders_Customer_Facing/Disposal_Order_Confirmation</template>
+    </alerts>
+    <alerts>
+        <fullName>Order_Serviced_Alert</fullName>
+        <ccEmails>bullbag@cambridgecloudpartners.com</ccEmails>
+        <ccEmails>a5beaaea.thebullbag.com@amer.teams.ms</ccEmails>
+        <description>Order Serviced Alert</description>
+        <protected>false</protected>
+        <senderAddress>service@thebullbag.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Order_Serviced</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Service_Start_Timestamp</fullName>
+        <field>Service_Status_Date_Time__c</field>
+        <formula>NOW()</formula>
+        <name>Service Start Timestamp</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Current_Date_for_Service</fullName>
+        <description>Set current date as service date</description>
+        <field>Service_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Set Current Date for Service</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Order Service Date Update</fullName>
+        <actions>
+            <name>Service_Start_Timestamp</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( ISCHANGED(Service_Status__c), OR(ISBLANK(PRIORVALUE(Service_Status__c)), ISPICKVAL(PRIORVALUE(Service_Status__c),&#39;Service hold&#39;)) , ISPICKVAL(Service_Status__c,&#39;Serviced&#39;) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Order Serviced Notification</fullName>
+        <actions>
+            <name>Order_Serviced_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(
+ISCHANGED(Service_Status__c),
+ISPICKVAL(Service_Status__c, &#39;Serviced&#39;)
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Send invoice when order is activated</fullName>
+        <actions>
+            <name>Invoice_sent_when_order_is_activated</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Order.Status</field>
+            <operation>equals</operation>
+            <value>Activated</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>TEST - CSR Feedback Email</fullName>
+        <active>false</active>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>Order.Status</field>
+            <operation>equals</operation>
+            <value>Serviced</value>
+        </criteriaItems>
+        <description>Test of the Customer Service auto-email</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>
+            <!-- If not on goal, what Is your recovery plan. -->
+        </help>
+        <label>
+            <!-- Plan if not on goal -->
+        </label>
+        <name>Variance_Recovery_Plan__c</name>
+    </CustomFieldTranslation>

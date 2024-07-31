@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>
+            <!-- On Sunday enter your weekly pickup goal / on Friday enter weekly pickup actual. -->
+        </help>
+        <label>
+            <!-- Weekly Pickup Goal/Actual -->
+        </label>
+        <name>Weekly_Pickup_Goal_Actual__c</name>
+    </CustomFieldTranslation>

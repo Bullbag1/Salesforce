@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zips_Missing_with_2020_price_book</fullName>
+    <columns>NAME</columns>
+    <columns>State__c</columns>
+    <columns>County__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Price_Book__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Price_Book__c</field>
+        <operation>contains</operation>
+        <value>2020</value>
+    </filters>
+    <label>Zips with 2020 price book</label>
+</ListView>

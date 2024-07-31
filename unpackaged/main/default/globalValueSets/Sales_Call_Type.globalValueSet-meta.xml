@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Phone Call</fullName>
+        <default>false</default>
+        <label>Phone Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Inbound Email</fullName>
+        <default>false</default>
+        <label>Inbound Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Onsite Cold Call</fullName>
+        <default>false</default>
+        <label>Onsite Cold Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Onsite Cold Call with Bag Demo</fullName>
+        <default>false</default>
+        <label>Onsite Cold Call with Bag Demo</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Visit</fullName>
+        <default>false</default>
+        <label>Customer Visit</label>
+    </customValue>
+    <customValue>
+        <fullName>Bag Demo</fullName>
+        <default>false</default>
+        <label>Bag Demo</label>
+    </customValue>
+    <customValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </customValue>
+    <customValue>
+        <fullName>Store Visit</fullName>
+        <default>false</default>
+        <label>Store Visit</label>
+    </customValue>
+    <customValue>
+        <fullName>Bag Drop Off</fullName>
+        <default>false</default>
+        <label>Bag Drop Off</label>
+    </customValue>
+    <customValue>
+        <fullName>Pro/Demo Day</fullName>
+        <default>false</default>
+        <label>Pro/Demo Day</label>
+    </customValue>
+    <customValue>
+        <fullName>Conference Call</fullName>
+        <default>false</default>
+        <label>Conference Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>Sales Call Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

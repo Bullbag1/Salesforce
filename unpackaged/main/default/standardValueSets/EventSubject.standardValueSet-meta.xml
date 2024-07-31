@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>FTM</fullName>
+        <default>false</default>
+        <label>First Time Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow Up Meeting</fullName>
+        <default>false</default>
+        <label>Follow Up Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Good Will</fullName>
+        <default>false</default>
+        <label>Good Will</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Drop Bags Off</fullName>
+        <default>false</default>
+        <label>Drop Bags Off</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Conference Call</fullName>
+        <default>false</default>
+        <label>Conference Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bag Demo</fullName>
+        <default>false</default>
+        <label>Bag Demo</label>
+    </standardValue>
+</StandardValueSet>

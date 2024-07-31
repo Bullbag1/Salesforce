@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Retail Restock Form - rev 3 05/19/21
+This is the same version uploaded in other files</description>
+    <internalUseOnly>false</internalUseOnly>
+    <name>Retailer Delivery Form</name>
+    <public>false</public>
+</Document>

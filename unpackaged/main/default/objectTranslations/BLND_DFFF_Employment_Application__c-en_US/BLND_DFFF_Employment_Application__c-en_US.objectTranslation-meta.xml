@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Employment Application</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Employment Applications</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Employment Application Layout</layout>
+        <sections>
+            <label>
+                <!-- Candidate Information -->
+            </label>
+            <section>Candidate Information</section>
+        </sections>
+        <sections>
+            <label>
+                <!-- Custom Links -->
+            </label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>
+                <!-- Education - University -->
+            </label>
+            <section>Education - University</section>
+        </sections>
+        <sections>
+            <label>
+                <!-- Other Information -->
+            </label>
+            <section>Other Information</section>
+        </sections>
+        <sections>
+            <label>
+                <!-- Position Applying For -->
+            </label>
+            <section>Position Applying For</section>
+        </sections>
+        <sections>
+            <label>
+                <!-- Previous Jobs - Job 2 Information -->
+            </label>
+            <section>Previous Jobs - Job 2 Information</section>
+        </sections>
+        <sections>
+            <label>
+                <!-- Previous Jobs - Job1 Information -->
+            </label>
+            <section>Previous Jobs - Job1 Information</section>
+        </sections>
+        <sections>
+            <label>
+                <!-- References -->
+            </label>
+            <section>References</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

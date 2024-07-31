@@ -1,0 +1,12 @@
+Hi!
+
+{!Account.Name} Service Agreement has been signed!
+
+ Please review all documents and approve contract.
+
+Thank you!
+
+
+{!Account.OwnerFullName}
+
+{!Contract.Link}

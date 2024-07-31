@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>
+            <!-- Skill Certification -->
+        </label>
+        <name>BLND_Skill_Certification__c</name>
+        <picklistValues>
+            <masterLabel>Certified Lotus Professional</masterLabel>
+            <translation>
+                <!-- Certified Lotus Professional -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certified Lotus Specialist</masterLabel>
+            <translation>
+                <!-- Certified Lotus Specialist -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certified Novell Administrator</masterLabel>
+            <translation>
+                <!-- Certified Novell Administrator -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certified Novell Engineer</masterLabel>
+            <translation>
+                <!-- Certified Novell Engineer -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certified Solaris Administrator</masterLabel>
+            <translation>
+                <!-- Certified Solaris Administrator -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cisco Certified Internetwork Expert</masterLabel>
+            <translation>
+                <!-- Cisco Certified Internetwork Expert -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft Certified Database Administrator</masterLabel>
+            <translation>
+                <!-- Microsoft Certified Database Administrator -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft Certified Professional</masterLabel>
+            <translation>
+                <!-- Microsoft Certified Professional -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft Certified Solutions Developer</masterLabel>
+            <translation>
+                <!-- Microsoft Certified Solutions Developer -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft Certified Systems Engineer</masterLabel>
+            <translation>
+                <!-- Microsoft Certified Systems Engineer -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Novell Certified Internet Professional</masterLabel>
+            <translation>
+                <!-- Novell Certified Internet Professional -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle Certified Professional</masterLabel>
+            <translation>
+                <!-- Oracle Certified Professional -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Management Professional</masterLabel>
+            <translation>
+                <!-- Project Management Professional -->
+            </translation>
+        </picklistValues>
+    </CustomFieldTranslation>

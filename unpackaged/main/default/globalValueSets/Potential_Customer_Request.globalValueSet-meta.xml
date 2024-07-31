@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Pricing Request</fullName>
+        <default>false</default>
+        <label>Pricing Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Service Area</fullName>
+        <default>false</default>
+        <label>Service Area</label>
+    </customValue>
+    <customValue>
+        <fullName>Bag Placement</fullName>
+        <default>false</default>
+        <label>Bag Placement</label>
+    </customValue>
+    <customValue>
+        <fullName>Where to Purchase</fullName>
+        <default>false</default>
+        <label>Where to Purchase</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>Potential Customer Request</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

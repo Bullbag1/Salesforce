@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BullBag</fullName>
+        <default>false</default>
+        <label>BullBag</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Disposal</fullName>
+        <default>false</default>
+        <label>Disposal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Additional Item</fullName>
+        <default>false</default>
+        <label>Additional Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Shipping</fullName>
+        <default>false</default>
+        <label>Shipping</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Security Hold</fullName>
+        <default>false</default>
+        <label>Security Hold</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Exceptional</fullName>
+        <default>false</default>
+        <label>Exceptional</label>
+    </standardValue>
+</StandardValueSet>

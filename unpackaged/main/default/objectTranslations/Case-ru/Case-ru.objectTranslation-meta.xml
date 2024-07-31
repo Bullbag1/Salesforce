@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Case Feed Layout</layout>
+        <sections>
+            <label>
+                <!-- Custom Links -->
+            </label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>
+                <!-- Fields -->
+            </label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label>
+            <!-- NewChildCase -->
+        </label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label>
+            <!-- SendEmail -->
+        </label>
+        <name>SendEmail</name>
+    </quickActions>
+    <webLinks>
+        <label>
+            <!-- MA_MapIt_a0s610000022dD4AAI -->
+        </label>
+        <name>MA_MapIt_a0s610000022dD4AAI</name>
+    </webLinks>
+</CustomObjectTranslation>

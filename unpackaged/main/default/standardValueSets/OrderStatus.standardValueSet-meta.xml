@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupingStringEnum>OrderStatusCode</groupingStringEnum>
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Draft</fullName>
+        <default>false</default>
+        <label>Draft</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Activated</fullName>
+        <default>false</default>
+        <label>Activated</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Refunded</fullName>
+        <default>false</default>
+        <label>Refunded</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Denied CC</fullName>
+        <default>false</default>
+        <label>Denied CC</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Ready for Refund</fullName>
+        <default>false</default>
+        <label>Ready for Refund</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Refund processed</fullName>
+        <default>false</default>
+        <label>Refund processed</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Shipped</fullName>
+        <default>false</default>
+        <label>Shipped</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Payment Failed</fullName>
+        <default>false</default>
+        <label>Payment Failed</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Credit</fullName>
+        <default>false</default>
+        <label>Credit</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Void in Unsettled</fullName>
+        <default>false</default>
+        <label>Void in Unsettled</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Paid by Terms</fullName>
+        <default>false</default>
+        <label>Paid by Terms</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Invoiced</fullName>
+        <default>false</default>
+        <label>Invoiced</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+</StandardValueSet>

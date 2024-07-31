@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>
+            <!-- Skill Set -->
+        </label>
+        <name>BLND_Skill_Set__c</name>
+        <picklistValues>
+            <masterLabel>Auditor</masterLabel>
+            <translation>
+                <!-- Auditor -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Analyst</masterLabel>
+            <translation>
+                <!-- Business Analyst -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultant</masterLabel>
+            <translation>
+                <!-- Consultant -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Relations</masterLabel>
+            <translation>
+                <!-- Customer Relations -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Database Administrator</masterLabel>
+            <translation>
+                <!-- Database Administrator -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Developer</masterLabel>
+            <translation>
+                <!-- Developer -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineer</masterLabel>
+            <translation>
+                <!-- Engineer -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Developer</masterLabel>
+            <translation>
+                <!-- Lead Developer -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Engineer</masterLabel>
+            <translation>
+                <!-- Lead Engineer -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network Administrator</masterLabel>
+            <translation>
+                <!-- Network Administrator -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>
+                <!-- None -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Manager</masterLabel>
+            <translation>
+                <!-- Project Manager -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA Engineer</masterLabel>
+            <translation>
+                <!-- QA Engineer -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Consultant</masterLabel>
+            <translation>
+                <!-- Senior Consultant -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Database Administrator</masterLabel>
+            <translation>
+                <!-- Senior Database Administrator -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Developer</masterLabel>
+            <translation>
+                <!-- Senior Developer -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task Manager</masterLabel>
+            <translation>
+                <!-- Task Manager -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Architect</masterLabel>
+            <translation>
+                <!-- Technical Architect -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Lead</masterLabel>
+            <translation>
+                <!-- Technical Lead -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Writer</masterLabel>
+            <translation>
+                <!-- Technical Writer -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Master</masterLabel>
+            <translation>
+                <!-- Web Master -->
+            </translation>
+        </picklistValues>
+    </CustomFieldTranslation>

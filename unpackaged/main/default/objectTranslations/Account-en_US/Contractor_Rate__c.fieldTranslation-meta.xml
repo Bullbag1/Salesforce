@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>
+            <!-- ONLY TO BE CHECKED BY CUSTOMER SERVICE LEAD
+Check this field to allow Contractor Pricing for this Account -->
+        </help>
+        <label>
+            <!-- Commercial Business (Service Agreement) -->
+        </label>
+        <name>Contractor_Rate__c</name>
+    </CustomFieldTranslation>

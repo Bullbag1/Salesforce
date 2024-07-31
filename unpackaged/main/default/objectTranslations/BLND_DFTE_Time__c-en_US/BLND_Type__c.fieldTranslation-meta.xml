@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>
+            <!-- Type -->
+        </label>
+        <name>BLND_Type__c</name>
+        <picklistValues>
+            <masterLabel>Enterprise Account Support</masterLabel>
+            <translation>
+                <!-- Enterprise Account Support -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Administration</masterLabel>
+            <translation>
+                <!-- General Administration -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instructing</masterLabel>
+            <translation>
+                <!-- Instructing -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Meeting</masterLabel>
+            <translation>
+                <!-- Internal Meeting -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Task Type</masterLabel>
+            <translation>
+                <!-- No Task Type -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Time Off</masterLabel>
+            <translation>
+                <!-- Paid Time Off -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance Management</masterLabel>
+            <translation>
+                <!-- Performance Management -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Practice Development</masterLabel>
+            <translation>
+                <!-- Practice Development -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Task</masterLabel>
+            <translation>
+                <!-- Project Task -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recruiting and Interviewing</masterLabel>
+            <translation>
+                <!-- Recruiting and Interviewing -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Support</masterLabel>
+            <translation>
+                <!-- Sales Support -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tom work</masterLabel>
+            <translation>
+                <!-- Tom work -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training &amp; Education</masterLabel>
+            <translation>
+                <!-- Training &amp; Education -->
+            </translation>
+        </picklistValues>
+    </CustomFieldTranslation>

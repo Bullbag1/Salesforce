@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Delivery to Customer</fullName>
+        <default>false</default>
+        <label>Delivery to Customer</label>
+    </customValue>
+    <customValue>
+        <fullName>Home Depot Shipment</fullName>
+        <default>false</default>
+        <label>Home Depot Shipment</label>
+    </customValue>
+    <customValue>
+        <fullName>Purchase Order Placed</fullName>
+        <default>false</default>
+        <label>Purchase Order Placed</label>
+    </customValue>
+    <customValue>
+        <fullName>Purchase Order Received</fullName>
+        <default>false</default>
+        <label>Purchase Order Received</label>
+    </customValue>
+    <customValue>
+        <fullName>Ship to Salesperson</fullName>
+        <default>false</default>
+        <label>Ship to Salesperson</label>
+    </customValue>
+    <customValue>
+        <fullName>Warehouse Location Transfer</fullName>
+        <default>false</default>
+        <label>Warehouse Location Transfer</label>
+    </customValue>
+    <customValue>
+        <fullName>Bag Assembly</fullName>
+        <default>false</default>
+        <label>Bag Assembly</label>
+    </customValue>
+    <customValue>
+        <fullName>Balance Adjustment</fullName>
+        <default>false</default>
+        <label>Balance Adjustment</label>
+    </customValue>
+    <masterLabel>Transaction Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

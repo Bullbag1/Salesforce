@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Phone Order</fullName>
+        <default>false</default>
+        <label>Phone Order</label>
+    </customValue>
+    <customValue>
+        <fullName>New Order</fullName>
+        <default>false</default>
+        <label>New Order</label>
+    </customValue>
+    <customValue>
+        <fullName>Service ETA</fullName>
+        <default>false</default>
+        <label>Service ETA</label>
+    </customValue>
+    <customValue>
+        <fullName>Service Complaint</fullName>
+        <default>false</default>
+        <label>Service Complaint</label>
+    </customValue>
+    <customValue>
+        <fullName>Outbound Call</fullName>
+        <default>false</default>
+        <label>Outbound Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Call</fullName>
+        <default>false</default>
+        <label>Sales Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Refund Update</fullName>
+        <default>false</default>
+        <label>Refund Update</label>
+    </customValue>
+    <customValue>
+        <fullName>Price Inquiry</fullName>
+        <default>false</default>
+        <label>Price Inquiry</label>
+    </customValue>
+    <customValue>
+        <fullName>Service Update</fullName>
+        <default>false</default>
+        <label>Service Update</label>
+    </customValue>
+    <customValue>
+        <fullName>Retail Locater</fullName>
+        <default>false</default>
+        <label>Retail Locater</label>
+    </customValue>
+    <customValue>
+        <fullName>Retailer Follow-up</fullName>
+        <default>false</default>
+        <label>Retailer Follow-up</label>
+    </customValue>
+    <masterLabel>Customer Service Call Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

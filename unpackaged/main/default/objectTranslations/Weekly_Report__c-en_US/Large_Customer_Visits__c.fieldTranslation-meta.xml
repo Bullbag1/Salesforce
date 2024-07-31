@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>
+            <!-- Visit=Next Date Visit Planned
+Goal=What you are looking to accomplish at visit
+Update=Put date visited and BRIEF update of visit -->
+        </help>
+        <label>
+            <!-- Large Customer Date Visit/Goal/Update -->
+        </label>
+        <name>Large_Customer_Visits__c</name>
+    </CustomFieldTranslation>

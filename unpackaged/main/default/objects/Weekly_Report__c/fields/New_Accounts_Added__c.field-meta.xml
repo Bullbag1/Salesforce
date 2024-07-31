@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Accounts_Added__c</fullName>
+    <description>The goal is 2-3 new accounts per week per sales representative. High value targets are major restoration companies and regular targets are local companies.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The goal is 2-3 new accounts per week per sales representative. High value targets are major restoration companies and regular targets are local companies.</inlineHelpText>
+    <label>New Account Goal / Update</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>15</visibleLines>
+</CustomField>

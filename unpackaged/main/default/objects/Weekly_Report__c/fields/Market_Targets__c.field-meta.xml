@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Market_Targets__c</fullName>
+    <description>List the major restoration companies in your market</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List the company name and if it is closed</inlineHelpText>
+    <label>High Target Prospects</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>15</visibleLines>
+</CustomField>

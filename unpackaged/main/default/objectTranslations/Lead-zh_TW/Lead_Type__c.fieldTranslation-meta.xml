@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>
+            <!-- Type -->
+        </label>
+        <name>Lead_Type__c</name>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation>
+                <!-- Consumer -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contractor</masterLabel>
+            <translation>
+                <!-- Contractor -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Former Customer</masterLabel>
+            <translation>
+                <!-- Former Customer -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturer</masterLabel>
+            <translation>
+                <!-- Manufacturer -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi Family Housing</masterLabel>
+            <translation>
+                <!-- Multi Family Housing -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Municipality</masterLabel>
+            <translation>
+                <!-- Municipality -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>
+                <!-- Other -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Govt</masterLabel>
+            <translation>
+                <!-- Other Govt -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restoration Company</masterLabel>
+            <translation>
+                <!-- Restoration Company -->
+            </translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retailer</masterLabel>
+            <translation>
+                <!-- Retailer -->
+            </translation>
+        </picklistValues>
+    </CustomFieldTranslation>

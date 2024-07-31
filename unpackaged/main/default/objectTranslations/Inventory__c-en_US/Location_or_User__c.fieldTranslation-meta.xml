@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>
+            <!-- Location or User -->
+        </label>
+        <name>Location_or_User__c</name>
+        <relationshipLabel>
+            <!-- Inventory (Location or User) -->
+        </relationshipLabel>
+    </CustomFieldTranslation>

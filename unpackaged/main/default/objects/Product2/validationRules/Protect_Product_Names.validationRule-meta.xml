@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Protect_Product_Names</fullName>
+    <active>false</active>
+    <description>product names and codes are used on site, which can disrupt orders</description>
+    <errorConditionFormula>NOT(ISNEW())
+&amp;&amp;
+(ISCHANGED(Name) || ISCHANGED(ProductCode))
+&amp;&amp; 
+NOT( $Permission.Allow_Edit_Products )</errorConditionFormula>
+    <errorMessage>Editing product names and codes can impact the ecommerce site.  Please contact an administrator to make this change.</errorMessage>
+</ValidationRule>

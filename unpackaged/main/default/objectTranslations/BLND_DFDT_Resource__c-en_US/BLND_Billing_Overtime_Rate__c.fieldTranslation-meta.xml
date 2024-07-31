@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>
+            <!-- Billing Overtime Rate -->
+        </label>
+        <name>BLND_Billing_Overtime_Rate__c</name>
+    </CustomFieldTranslation>

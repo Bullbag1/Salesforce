@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_Admin_can_change_the_Status</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED(Status),
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+NOT(ISPICKVAL( $User.Can_Edit_Orders__c , &quot;Yes&quot;)))</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>Only System administrator can change the status</errorMessage>
+</ValidationRule>
